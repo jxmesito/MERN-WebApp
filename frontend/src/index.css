@@ -152,13 +152,24 @@ Link {
 }
 
 form {
-    border: 2px solid #647dee;
-    width: 300px;
+    width: 400px;
     height: 250px;
     margin-top: 20px;
-    padding: 50px;
+    padding: 50px 40px;
 }
 
 input[type=text]:focus {
     border: 1px solid #555;
+}
+
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+form.comment {
+    background-color: black;
 }

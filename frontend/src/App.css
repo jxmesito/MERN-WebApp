@@ -3,7 +3,7 @@
 
 /* layout */
 :root {
-  --primary: #1aac83;
+  --primary: rgb(160, 115, 201);
   --error: #e7195a;
 }
 body {
@@ -36,8 +36,8 @@ header a {
 .home {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 100px;
 }
+
 .post-details {
   background: #fff;
   border-radius: 4px;

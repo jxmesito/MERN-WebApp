@@ -35,7 +35,6 @@ const PostForm = () => {
         }
 
     }
-
     return (
         <form className="create" onSubmit={handleSubmit}>
             <h3>Post your mind: </h3>

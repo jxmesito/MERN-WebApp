@@ -1,7 +1,7 @@
 // Home page should have 3 tabs Home...Forum...Login. 
 // After logging in have 3 tabs Home...Forum...Profile.
 
-import { useEffect} from "react"
+import { useEffect } from "react"
 import { usePostsContext } from "../hooks/usePostsContext"
 
 // components
@@ -18,7 +18,7 @@ const Home = () => {
       const json = await response.json()
 
       if (response.ok) {
-        dispatch({type: 'SET_POSTS', payload: json})
+        dispatch({ type: 'SET_POSTS', payload: json })
       }
     }
 

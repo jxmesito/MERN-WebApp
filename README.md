@@ -14,3 +14,6 @@ Create React components to represent different parts of your application's UI, s
 Use React's state management to handle user interactions and data updates within the frontend.
 Communicate with the backend API (built with Node.js and Express) to fetch and update data from the MongoDB Atlas database.
 Render dynamic content using EJS templates within your React components when needed.
+
+
+<img src="mern.gif" alt="mern-website-demo">

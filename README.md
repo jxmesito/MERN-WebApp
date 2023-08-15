@@ -1,5 +1,5 @@
 # MERN-WebApp
-Live demo of a MERN full stack website
+Live demo of a MERN full stack website (Deprecated)
 
 Backend (Node.js, Express, MongoDB Atlas):
 
